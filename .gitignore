@@ -18,8 +18,6 @@ src-tauri/target/
 src-tauri/gen/schemas
 
 # Environment
-.env
-.env.*
 !.env.example
 
 # OS
@@ -32,7 +30,6 @@ claude.md
 
 
 # IDE
-.vscode/
 !.vscode/extensions.json
 .idea/
 *.swp
@@ -96,8 +93,6 @@ coverage
 .eslintcache
 
 # dotenv environment variables file
-.env
-.env.test
 
 # build output
 .vercel
@@ -177,8 +172,6 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
-.env.*
 !.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -298,3 +291,4 @@ skills-lock.json
 /scratch/
 /.scratch/
 
+config.bat
